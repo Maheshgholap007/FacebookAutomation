@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sanity Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.aos.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Admin Test(failed)">
+    <classes>
+      <class name="com.aos.tests.logintests.LoginTests">
+        <methods>
+          <include name="AOS_002"/>
+        </methods>
+      </class> <!-- com.aos.tests.logintests.LoginTests -->
+    </classes>
+  </test> <!-- Admin Test(failed) -->
+</suite> <!-- Failed suite [sanity Suite] -->
