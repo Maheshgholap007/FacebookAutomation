@@ -60,5 +60,7 @@ public static String[]getLocator(String key){
 	return value;
 	
 }
-
+public static void main(String[] args) {
+	System.out.println("New Changes For Practice");
+}
 }
