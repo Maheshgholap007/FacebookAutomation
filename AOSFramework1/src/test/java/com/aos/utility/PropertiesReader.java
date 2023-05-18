@@ -61,6 +61,6 @@ public static String[]getLocator(String key){
 	
 }
 public static void main(String[] args) {
-	System.out.println("Main Method is Added Prop Read Utils");
+	System.out.println("Main Method is Added");
 }
 }
